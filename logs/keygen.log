@@ -1,0 +1,24 @@
+=== キーペア生成結果 ===
+ネットワーク     : Testnet
+
+秘密鍵 (WIF)     : cTfT9a4BiWDusfib6B4usLGGZ2Vb38QKx3C2hCf2WJwiXpoFrTsg
+公開鍵 (hex)     : 0349eef0dac16dd593a0485537178620b7228dad65e8ab856e2deaa25018daea0f
+
+アドレス (P2WPKH): tb1qn47x4t3zt2q9mtgu7yhfmgptuzgvah63yp7fk4
+scriptPubKey     : 00149d7c6aae225a805dad1cf12e9da02be090cedf51
+
+=== テストネット利用手順 ===
+1. 上記アドレスに faucet から tBTC を送金:
+   https://coinfaucet.eu/en/btc-testnet/
+   https://testnet-faucet.mempool.co/
+
+2. Testnet Explorer で UTXO を確認:
+   https://mempool.space/testnet/address/tb1qn47x4t3zt2q9mtgu7yhfmgptuzgvah63yp7fk4
+
+3. JSON 入力ファイルを作成し btc-tx で署名:
+   btc-tx sign --input tx.json
+
+4. 署名済み tx を broadcast:
+   https://mempool.space/testnet/tx/push
+
+[警告] 秘密鍵は安全な場所に保管してください
