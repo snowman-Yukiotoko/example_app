@@ -1,0 +1,25 @@
+{
+  "network": "testnet",
+
+  "private_key_wif": "cTfT9a4BiWDusfib6B4usLGGZ2Vb38QKx3C2hCf2WJwiXpoFrTsg",
+
+  "utxos": [
+    {
+      "txid": "87a0c796d189736e3058badcf7063036ff5d2b5f7d3a03a20b4a7cf5a77751ab",
+      "vout": 0,
+      "amount_sat": 345003,
+      "script_pubkey": "00149d7c6aae225a805dad1cf12e9da02be090cedf51"
+    }
+  ],
+
+  "recipients": [
+    {
+      "address": "tb1qn47x4t3zt2q9mtgu7yhfmgptuzgvah63yp7fk4",
+      "amount_sat": 343003
+    }
+  ],
+
+  "change_address": "tb1qn47x4t3zt2q9mtgu7yhfmgptuzgvah63yp7fk4",
+
+  "fee_sat": 2000
+}
