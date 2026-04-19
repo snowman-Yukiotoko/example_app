@@ -1,0 +1,26 @@
+{
+  "network": "testnet",
+
+  "private_key_wif": "cQjEFCKj5ndZyw7iRiDghCdDvh52sPXUMwNKWCPeUGYHESYPXTng",
+
+  "utxos": [
+    {
+      "comment": "txid・vout・amount_sat・script_pubkey は mempool.space/testnet で確認して記入",
+      "txid": "REPLACE_WITH_ACTUAL_TXID",
+      "vout": 0,
+      "amount_sat": 100000,
+      "script_pubkey": "0014d4cd3e93203ff0d9fcb5865e64f7c824307e8cbd"
+    }
+  ],
+
+  "recipients": [
+    {
+      "address": "tb1q6nxnayeq8lcdnl94se0xfa7gysc8ar9a8mevpt",
+      "amount_sat": 90000
+    }
+  ],
+
+  "change_address": "tb1q6nxnayeq8lcdnl94se0xfa7gysc8ar9a8mevpt",
+
+  "fee_sat": 2000
+}
